@@ -1,0 +1,348 @@
+Print out of USB device filepaths and associated basic USB information
+
+Device path: \\?\hid#vid_046d&pid_c52b&mi_01&col02#9&25dc6ac5&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Manfacturer's name: Logitech
+VendorID: 0x46d
+ProductID: 0xc52b
+Version Number: 9217
+Usage Page: 0xc
+Usage: 0x1
+Input Report Byte Length: 5
+Output Report Byte Length: 0
+Feature Report Byte Length: 0
+Number Link Collection Nodes: 1
+Number Input Value Caps: 0
+Number Input Button Caps: 1
+Number Input Data Indices: 652
+Number Output Button Caps: 0
+Number Output Value Caps: 0
+Number Output Data Indices: 0
+Number Feature Button Caps: 0
+Number Output Value Caps: 0
+Number Feature Data Indices: 0
+
+Device path: \\?\hid#vid_046d&pid_c52b&mi_01&col03#9&25dc6ac5&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Manfacturer's name: Logitech
+VendorID: 0x46d
+ProductID: 0xc52b
+Version Number: 9217
+Usage Page: 0x1
+Usage: 0x80
+Input Report Byte Length: 2
+Output Report Byte Length: 0
+Feature Report Byte Length: 0
+Number Link Collection Nodes: 1
+Number Input Value Caps: 0
+Number Input Button Caps: 3
+Number Input Data Indices: 3
+Number Output Button Caps: 0
+Number Output Value Caps: 0
+Number Output Data Indices: 0
+Number Feature Button Caps: 0
+Number Output Value Caps: 0
+Number Feature Data Indices: 0
+
+Device path: \\?\hid#vid_16c0&pid_0486&mi_01#9&fddb3ae&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Manfacturer's name: Teensyduino
+VendorID: 0x16c0
+ProductID: 0x486
+Version Number: 629
+Usage Page: 0xffc9
+Usage: 0x4
+Input Report Byte Length: 65
+Output Report Byte Length: 33
+Feature Report Byte Length: 5
+Number Link Collection Nodes: 1
+Number Input Value Caps: 1
+Number Input Button Caps: 0
+Number Input Data Indices: 1
+Number Output Button Caps: 0
+Number Output Value Caps: 1
+Number Output Data Indices: 1
+Number Feature Button Caps: 0
+Number Output Value Caps: 1
+Number Feature Data Indices: 1
+
+Device path: \\?\hid#vid_046d&pid_c52b&mi_01&col04#9&25dc6ac5&0&0003#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Manfacturer's name: Logitech
+VendorID: 0x46d
+ProductID: 0xc52b
+Version Number: 9217
+Usage Page: 0xffbc
+Usage: 0x88
+Input Report Byte Length: 2
+Output Report Byte Length: 0
+Feature Report Byte Length: 0
+Number Link Collection Nodes: 1
+Number Input Value Caps: 0
+Number Input Button Caps: 1
+Number Input Data Indices: 255
+Number Output Button Caps: 0
+Number Output Value Caps: 0
+Number Output Data Indices: 0
+Number Feature Button Caps: 0
+Number Output Value Caps: 0
+Number Feature Data Indices: 0
+
+Device path: \\?\hid#vid_06a3&pid_0464#8&29e38fa1&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Manfacturer's name: 
+VendorID: 0x6a3
+ProductID: 0x464
+Version Number: 272
+Usage Page: 0x1
+Usage: 0x4
+Input Report Byte Length: 9
+Output Report Byte Length: 0
+Feature Report Byte Length: 0
+Number Link Collection Nodes: 2
+Number Input Value Caps: 5
+Number Input Button Caps: 1
+Number Input Data Indices: 17
+Number Output Button Caps: 0
+Number Output Value Caps: 0
+Number Output Data Indices: 0
+Number Feature Button Caps: 0
+Number Output Value Caps: 0
+Number Feature Data Indices: 0
+
+Device path: \\?\hid#vid_16c0&pid_0486&mi_00#9&13f98a14&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Manfacturer's name: Teensyduino
+VendorID: 0x16c0
+ProductID: 0x486
+Version Number: 629
+Usage Page: 0xffab
+Usage: 0x200
+Input Report Byte Length: 65
+Output Report Byte Length: 65
+Feature Report Byte Length: 0
+Number Link Collection Nodes: 1
+Number Input Value Caps: 1
+Number Input Button Caps: 0
+Number Input Data Indices: 1
+Number Output Button Caps: 0
+Number Output Value Caps: 1
+Number Output Data Indices: 1
+Number Feature Button Caps: 0
+Number Output Value Caps: 1
+Number Feature Data Indices: 0
+
+Device path: \\?\hid#vid_046d&pid_c52b&mi_00#9&390c8703&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Manfacturer's name: Logitech
+VendorID: 0x46d
+ProductID: 0xc52b
+Version Number: 9217
+Usage Page: 0x1
+Usage: 0x6
+Input Report Byte Length: 9
+Output Report Byte Length: 2
+Feature Report Byte Length: 0
+Number Link Collection Nodes: 1
+Number Input Value Caps: 0
+Number Input Button Caps: 2
+Number Input Data Indices: 173
+Number Output Button Caps: 1
+Number Output Value Caps: 0
+Number Output Data Indices: 5
+Number Feature Button Caps: 0
+Number Output Value Caps: 0
+Number Feature Data Indices: 0
+
+Device path: \\?\hid#vid_046d&pid_c52b&mi_02&col01#9&12ac4e87&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Manfacturer's name: Logitech
+VendorID: 0x46d
+ProductID: 0xc52b
+Version Number: 9217
+Usage Page: 0xff00
+Usage: 0x1
+Input Report Byte Length: 7
+Output Report Byte Length: 7
+Feature Report Byte Length: 0
+Number Link Collection Nodes: 1
+Number Input Value Caps: 0
+Number Input Button Caps: 1
+Number Input Data Indices: 1
+Number Output Button Caps: 1
+Number Output Value Caps: 0
+Number Output Data Indices: 1
+Number Feature Button Caps: 0
+Number Output Value Caps: 0
+Number Feature Data Indices: 0
+
+Device path: \\?\hid#vid_046d&pid_c52b&mi_02&col02#9&12ac4e87&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Manfacturer's name: Logitech
+VendorID: 0x46d
+ProductID: 0xc52b
+Version Number: 9217
+Usage Page: 0xff00
+Usage: 0x2
+Input Report Byte Length: 20
+Output Report Byte Length: 20
+Feature Report Byte Length: 0
+Number Link Collection Nodes: 1
+Number Input Value Caps: 0
+Number Input Button Caps: 1
+Number Input Data Indices: 1
+Number Output Button Caps: 1
+Number Output Value Caps: 0
+Number Output Data Indices: 1
+Number Feature Button Caps: 0
+Number Output Value Caps: 0
+Number Feature Data Indices: 0
+
+Device path: \\?\hid#vid_046d&pid_c52b&mi_02&col03#9&12ac4e87&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Manfacturer's name: Logitech
+VendorID: 0x46d
+ProductID: 0xc52b
+Version Number: 9217
+Usage Page: 0xff00
+Usage: 0x4
+Input Report Byte Length: 32
+Output Report Byte Length: 32
+Feature Report Byte Length: 0
+Number Link Collection Nodes: 1
+Number Input Value Caps: 0
+Number Input Button Caps: 2
+Number Input Data Indices: 2
+Number Output Button Caps: 2
+Number Output Value Caps: 0
+Number Output Data Indices: 2
+Number Feature Button Caps: 0
+Number Output Value Caps: 0
+Number Feature Data Indices: 0
+
+Device path: \\?\hid#vid_046d&pid_c52b&mi_01&col01#9&25dc6ac5&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Manfacturer's name: Logitech
+VendorID: 0x46d
+ProductID: 0xc52b
+Version Number: 9217
+Usage Page: 0x1
+Usage: 0x2
+Input Report Byte Length: 8
+Output Report Byte Length: 0
+Feature Report Byte Length: 0
+Number Link Collection Nodes: 2
+Number Input Value Caps: 4
+Number Input Button Caps: 1
+Number Input Data Indices: 20
+Number Output Button Caps: 0
+Number Output Value Caps: 0
+Number Output Data Indices: 0
+Number Feature Button Caps: 0
+Number Output Value Caps: 0
+Number Feature Data Indices: 0
+
+################################################################################
+
+Check USBHID_ns::GetString()
+UNICODE
+BYTE COUNT
+
+################################################################################
+
+Thread test
+
+Sending start msg
+Thread1: number received =  0
+Thread2: Transmit packet 0
+
+Thread1: number received =  1
+Thread2: Transmit packet 1
+
+Thread1: number received =  2
+Thread2: Transmit packet 2
+
+Thread1: number received =  3
+Thread2: Transmit packet 3
+
+Thread1: number received =  4
+Thread2: Transmit packet 4
+
+Thread1: number received =  5
+Thread2: Transmit packet 5
+
+Thread1: number received =  6
+Thread2: Transmit packet 6
+
+Thread1: number received =  7
+Thread2: Transmit packet 7
+
+Thread1: number received =  8
+Thread2: Transmit packet 8
+
+Thread1: number received =  9
+Thread2: Transmit packet 9
+
+Thread1: number received =  10
+Thread2: Transmit packet 10
+
+Thread1: number received =  11
+Thread2: Transmit packet 11
+
+Thread1: number received =  12
+Thread2: Transmit packet 12
+
+Thread1: number received =  13
+Thread2: Transmit packet 13
+
+Thread1: number received =  14
+Thread2: Transmit packet 14
+
+Thread1: number received =  15
+Thread2: Transmit packet 15
+
+Thread1: number received =  16
+Thread2: Transmit packet 16
+
+Thread1: number received =  17
+Thread2: Transmit packet 17
+
+Thread1: number received =  18
+Thread2: Transmit packet 18
+
+Sending stop msg
+Thread1: finished with true
+Thread2: finished with true
+
+
+End of Thread test
+
+################################################################################
+
+Testing block reads
+
+Sending start msg
+
+Printing block0 output: number of packets = 4
+Transmit packet 0
+Transmit packet 1
+Transmit packet 2
+Transmit packet 3
+
+Printing block1 output: number of packets = 4
+0
+1
+2
+3
+Sending stop msg
+
+
+End of Testing block reads
+
+################################################################################
+
+Testing contiguous USB packets writes and block reads
+
+
+Printing block2 output: number of packets read = 4
+Transmit packet 4
+Transmit packet 5
+Transmit packet 6
+Transmit packet 7
+
+
+End of Testing contiguous USB packets writes and block reads
+
+
+################################################################################
+
+END OF TEST HARNESS
