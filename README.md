@@ -27,6 +27,6 @@ Note: this project is not documented.
 
 
 ##### Notes
-Version of Visual Studio 2017 Professional: 15.7.6<br/>
+Version of Visual Studio 2017 Professional: 15.9.3<br/>
 [The latest Visual C++ redistributables.](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
 
