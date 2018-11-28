@@ -41,5 +41,5 @@ namespace USBHID_ns
   /// <returns>
   /// Returns a vector of hidDeviceInfo structures.
   /// </returns>
-  USBHID_API installedDeviceInfoList_t GetlInstalledDevicesInfo() noexcept;
+  USBHID_API [[nodiscard]] installedDeviceInfoList_t GetlInstalledDevicesInfo() noexcept;
 }

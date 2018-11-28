@@ -75,12 +75,12 @@ namespace USBHID_ns
     /// Attempts to open a valid file handle for the associated device filepath.
     /// If a valid file handle is obtained then true is returned otherwise false.
     /// </summary>
-    USBHID_API bool open() noexcept;
+    USBHID_API [[nodiscard]] bool open() noexcept;
 
     /// <summary>
     /// Returns true if there is a valid file handle open for communication other false.
     /// </summary>
-    USBHID_API bool isOpen() const noexcept;
+    USBHID_API [[nodiscard]] bool isOpen() const noexcept;
 
     /// <summary>
     /// Closes the file handle if open
@@ -92,7 +92,7 @@ namespace USBHID_ns
     /// COMMS_ERROR::INVALID_USB_HANDLE, an atttempt to close an invalid file handle.<br>
     /// COMMS_ERROR::CLOSE_USB_HANDLE_FAIL, an error occurred on closing the file handle.<br>
     /// </returns>
-    USBHID_API COMMS_ERROR close() noexcept;
+    USBHID_API [[nodiscard]] COMMS_ERROR close() noexcept;
 
     /// <summary>
     /// Sends a single USB packet to the USB HID device.
@@ -105,7 +105,7 @@ namespace USBHID_ns
     /// COMMS_ERROR::TIMED_OUT, the function could not complete the send within the specified timeout. <br>
     /// COMMS_ERROR::FAIL, an unknown error occurred.
     /// </returns>
-    USBHID_API COMMS_ERROR send(usbHidPacket const & packet, DWORD milliSecondTimeout = INFINITE) const noexcept;
+    USBHID_API [[nodiscard]] COMMS_ERROR send(usbHidPacket const & packet, DWORD milliSecondTimeout = INFINITE) const noexcept;
 
     /// <summary>
     /// Receives a single packet of data from the USB HID device.
@@ -118,7 +118,7 @@ namespace USBHID_ns
     /// COMMS_ERROR::TIMED_OUT, the function could not complete the receive within the specified timeout. <br>
     /// COMMS_ERROR::FAIL, an unknown error occurred.
     /// </returns>
-    USBHID_API COMMS_ERROR receive(usbHidPacket & packet, DWORD milliSecondTimeout = INFINITE) const noexcept;
+    USBHID_API [[nodiscard]] COMMS_ERROR receive(usbHidPacket & packet, DWORD milliSecondTimeout = INFINITE) const noexcept;
 
     /// <summary>
     /// Receives a number of packets of data from the USB HID device.
@@ -132,7 +132,7 @@ namespace USBHID_ns
     /// COMMS_ERROR::TIMED_OUT, the function could not complete the receive within the specified timeout.<br>
     /// COMMS_ERROR::FAIL, an unknown error occurred.
     /// </returns>
-    USBHID_API usbHidPackets_t receive(DWORD numUsbPacketsRequested, DWORD milliSecondTimeout = INFINITE) const noexcept;
+    USBHID_API [[nodiscard]] usbHidPackets_t receive(DWORD numUsbPacketsRequested, DWORD milliSecondTimeout = INFINITE) const noexcept;
 
     /// <summary>
     /// Returns the basic USB HID data associated with the device.
@@ -140,7 +140,7 @@ namespace USBHID_ns
     /// <returns>
     /// Returns a copy of the hidDeviceInfo held by the instance.
     /// </returns>
-    USBHID_API hidDeviceInfo devInfo() const noexcept;
+    USBHID_API [[nodiscard]] hidDeviceInfo devInfo() const noexcept;
 
   private:
     hidDeviceInfo m_devInfo;

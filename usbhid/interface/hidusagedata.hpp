@@ -133,7 +133,7 @@ namespace USBHID_ns
   /// On success returns a wide string representation of the given 'usagePage' parameter
   /// otherwise an empty string is returned.
   /// </returns>
-  USBHID_API std::wstring GetString(HID_USAGEPAGE usagePage) noexcept;
+  USBHID_API [[nodiscard]] std::wstring GetString(HID_USAGEPAGE usagePage) noexcept;
 
   /// <summary>
   /// For a given value of the HID_GENERIC_USAGE enumeration the function returns
@@ -146,6 +146,6 @@ namespace USBHID_ns
   /// On success returns a wide string representation of the given 'usage' parameter
   /// otherwise an empty string is returned.
   /// </returns>
-  USBHID_API std::wstring GetString(HID_GENERIC_USAGE usage) noexcept;
+  USBHID_API [[nodiscard]] std::wstring GetString(HID_GENERIC_USAGE usage) noexcept;
   
 }

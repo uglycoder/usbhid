@@ -16,9 +16,9 @@ namespace
     USBHID_ns::RawHidDevice::usbHidPacket usbPacket;
   };
 
-  std::pair<USBHID_ns::RawHidDevice::COMMS_ERROR, DWORD> ReadUSBFile(::HANDLE usbFileHandle, DWORD milliSecondTimeout, DWORD numPacketsToRead, void * buffer) noexcept;
+  [[nodiscard]] std::pair<USBHID_ns::RawHidDevice::COMMS_ERROR, DWORD> ReadUSBFile(::HANDLE usbFileHandle, DWORD milliSecondTimeout, DWORD numPacketsToRead, void * buffer) noexcept;
 
-  USBHID_ns::RawHidDevice::COMMS_ERROR WriteUSBFile(::HANDLE usbFileHandle, DWORD milliSecondTimeout, DWORD numBytesToWrite, void * buffer) noexcept;
+  [[nodiscard]] USBHID_ns::RawHidDevice::COMMS_ERROR WriteUSBFile(::HANDLE usbFileHandle, DWORD milliSecondTimeout, DWORD numBytesToWrite, void * buffer) noexcept;
 }
 
 USBHID_ns::RawHidDevice::RawHidDevice(hidDeviceInfo const & devInfo) : m_devInfo(devInfo)
